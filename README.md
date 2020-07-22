@@ -26,7 +26,7 @@ Set-Associative Mapping is an enhanced form of Direct Mapping where the disadvan
 
 ### Write-Back Policy:
 
-In write-back policy,the data is updated ina cache level everytime a writeinstruction is issuedby the processor, butit is written intohigher levels of cacheor main memory onlywhen the memoryblock evicts from thelower cache level.
+In write-back policy,the data is updated ina cache level everytime a write instruction is issued by the processor, but it is written into higher levels of cache or main memory only when the memory block evicts from the lower cache level.
 
 - **Pros**
   - Optimizes system speed
@@ -35,7 +35,7 @@ In write-back policy,the data is updated ina cache level everytime a writeinstru
 
 ### No-Write Allocate Policy:
 
-In no-write allocatepolicy, when a writemiss occurs in alower level of cachememory, the data isupdated in the higherlevel of cachememory or in mainmemory (whereverfound), but is notloaded into the lowerlevel cache memory.
+In no-write allocate policy, when a write miss occurs in a lower level of cache memory, the data is updated in the higher level of cache memory or in main memory (wherever found), but is not loaded into the lower level cache memory.
 
 - **Pros**
   - Fewer spurious evictions
